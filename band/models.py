@@ -13,9 +13,10 @@ class Song(models.Model):
 
     Methods:
         __str__: Returns the title of the song as a string representation.
+    
     """
     title = models.CharField(max_length=100)
-    duration = models.DurationField()  # Duration of the song in HH:MM:SS format
+    duration = models.DurationField() 
     release_date = models.DateField()
 
     def __str__(self):
@@ -24,5 +25,6 @@ class Song(models.Model):
 
         Returns:
             str: The title of the song.
+        
         """
         return self.title

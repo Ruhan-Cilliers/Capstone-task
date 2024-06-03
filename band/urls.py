@@ -23,4 +23,5 @@ URL Patterns:
     - /songs/: URL pattern for the song list page.
 
 Each URL pattern is assigned to its corresponding view function.
+
 """
