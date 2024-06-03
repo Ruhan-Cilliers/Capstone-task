@@ -13,6 +13,9 @@ documentation.
 
 Run your command prompt and run pip with 'requirements.txt' to ensure all the nessessary programs are installed.
 
+run docker build -t capstone-task and ensure your docker desktop app is open.
+
+
 After this type docker run -p 8000:8000 capstone-task to 
 in your cmd to run the program on a website.
 
