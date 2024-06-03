@@ -29,3 +29,19 @@ urlpatterns = [
     path('', auth_views.LoginView.as_view(template_name='login.html'), name='login'),
     path('logout/', auth_views.LogoutView.as_view(template_name='logout.html'), name='logout'),
 ]
+"""
+URL configuration for the Django project.
+
+Defines URL patterns for all the functions and views created in this Django project.
+
+URL Patterns:
+    - /admin/: URL pattern for the Django admin.
+    - /band/: URL pattern for URLs defined in the 'band' app.
+    - /welcome/: URL pattern for the welcome page.
+    - /users/: URL pattern for URLs created in the 'users' app.
+    - /register/: URL pattern for the user registration page.
+    - /: URL pattern for the login page and uses Django's built-in LoginView.
+    - /logout/: URL pattern for the logout page and uses Django's built-in LogoutView.
+
+Each URL pattern is assigned to the appropriate view.
+"""
