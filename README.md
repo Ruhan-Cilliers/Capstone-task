@@ -1,4 +1,4 @@
-# **Capstone project**
+# **Capstone Website Project using Django**
 
 This project is a webpage of a fake band which has a registration
 feature and login feature before the pages are accessible.
