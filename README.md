@@ -1,10 +1,12 @@
 # **Capstone Website Project using Django**
 
-This project is a webpage of a fake band which has a registration
+This project is a website of a fake band which has a registration
 feature and login feature before the pages are accessible.
 This was an important step in learning to use Django effectively.
 It also consolidated the use of git, dockers and sphinx for 
-documentation.
+documentation. Please note that due to Git only being able to 
+deploy static webpages that you must follow the installation 
+process below in order to view the project.
 
 ## *Table of Content*
 * Installation
