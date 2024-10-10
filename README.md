@@ -5,8 +5,8 @@ feature and login feature before the pages are accessible.
 This was an important step in learning to use Django effectively.
 It also consolidated the use of git, dockers and sphinx for 
 documentation. Please note that due to Git only being able to 
-deploy static webpages that you must follow the installation 
-process below in order to view the project.
+deploy static webpages you must follow the installation 
+process below to view the project.
 
 ## *Table of Content*
 * Installation
@@ -15,7 +15,7 @@ process below in order to view the project.
 ## **Installation** 
 
 ### **Clone repository**
-The first step is to clone the repository to your device. To do this start your command prompt in the desired
+The first step is to clone the repository to your device. Start your command prompt in the desired
 directory and run 'git clone https://github.com/Ruhan-Cilliers/Capstone-task.git' to get the repository onto 
 your local device. Follow the following steps depending on how you wish to deploy the program.
 
@@ -28,7 +28,7 @@ your local device. Follow the following steps depending on how you wish to deplo
 ### **Deploying the project using Docker:**
 * Run your command prompt and run pip with 'requirements.txt' to ensure all the necessary programs are installed.
 * Run docker build -t capstone-task and ensure your docker desktop app is open.
-* After this type docker run -p 8000:8000 capstone-task to in your cmd to run the program on a website.
+* After this type docker run -p 8000:8000 capstone-task to run the program on a website in your cmd.
 * Follow this link to view the program:
   http://localhost:8000
 
